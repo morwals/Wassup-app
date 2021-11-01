@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wassup app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <h1>Wassup !!</h1>
+    </nav>
+    <div class="container" id="container">
+        <div class="msg left">
+            Ask your friends to join the app.
+        </div>
+        <div class="msg right">
+            And Enjoy chatting with friends
+        </div>
+    </div>
+    <div class="send">
+        <form action="/" method="post" id="frm">
+            <input type="text" name="msginp" id="msginp">
+            <button class="btn" type="submit">Send</button>
+        </form>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="client.js">
+    </script>
+</body>
+</html>
