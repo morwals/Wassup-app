@@ -7,6 +7,7 @@ const io = new Server(server);
 const users={};
 
 app.use(express.static("public"));
+
 app.get('/', (req, res) => {
   res.sendFile(__dirname + '/index.html');
 });

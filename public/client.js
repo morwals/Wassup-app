@@ -33,7 +33,7 @@ socket.emit("new-user-joined", nam);
 
 
 socket.on("user-joined",name=>{
-    append(name+" joined the chat.","right");
+    append(name+" joined the chat.","center");
 });
 
 socket.on("receive",data=>{
@@ -41,5 +41,5 @@ socket.on("receive",data=>{
 });
 
 socket.on("left",data=>{
-  append(data+" left the chat","left");
+  append(data+" left the chat","center");
 });

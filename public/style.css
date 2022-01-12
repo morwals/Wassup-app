@@ -1,19 +1,27 @@
 h1{
     text-align: center;
+    color: blanchedalmond;
     margin: auto;
     padding: 20px;
 }
 
 body{
-    background-color: antiquewhite;
+
+background: #009FFF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ec2F4B, #009FFF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ec2F4B, #009FFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .container{
-    background-color: aquamarine;
+    background: #FF8008;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFC837, #FF8008);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFC837, #FF8008); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     margin: auto;
     max-width: 955px;
-    height: 60vh;
-    border: cadetblue;
+    height: 70vh;
+    border: 8px solid cadetblue;
     border-radius: 10px;
     padding: 5px;
     overflow-y: auto;
@@ -23,17 +31,26 @@ body{
     margin: 5px;
 }
 .msg{
-    background-color: darkcyan;
-    width: 24%;
-    padding: 5px;
-    border: 2px solid black;
-    border-radius: 5px;
-    margin: 17px 12px;
+    background-color: rgb(255, 255, 255);
+    width: fit-content;
+    padding: 3px 22px;
+    border: 0px ;
+    border-radius: 10px;
+    margin: 3px 10px;
+    box-shadow: 0px 2px 5px -1px rgba(0,0,0,0.71);
 }
 
 .left{
     float: left;
     clear: both;
+}
+
+.center{
+    width: fit-content;
+    margin:10px auto;
+    clear:both;
+    box-shadow: 0px 2px 5px -1px rgba(0,0,0,0.71);
+    background-color: transparent;
 }
 
 .right{
@@ -55,6 +72,7 @@ body{
     border-radius: 5px;
     border: 2px solid black;
     margin-top: 1px;
+    
 }
 
 .btn{
